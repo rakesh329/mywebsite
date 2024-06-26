@@ -1,155 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <title>Portfolio</title>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/style.css">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/carousel/">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      </head>
 <body>
-    <header class="dark-theme">
-        <div class="logo">
-            <img src="profile.png" alt="Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top nav_left">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rakesh Namballa</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-d flex-row-reverse nav_right" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Projects</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link p-2" href="/views/sql.html">SQLi <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Experence</a>
+              </li>
+              <li class="nav-item dropdown">
+                
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
             </ul>
-        </nav>
-        <a href="#hire-me" class="cta-btn">Hire Me</a>
-    </header>
+          </div>
+        </div>
+      </nav>
+      <sectionc class = "container">
 
-    <!-- Your content goes here -->
+        <div class="block">
+          <img class="rounded mx-auto d-block img" src="/my.photo.png" alt="photo">
+          <div class="ptext">
+            <span>Rakesh Namballa<br></span><br><br>
+            <span class="text-justify">Programmer - Ethical Hacker</span>
+  
+          </div>
+        </div>
+  </section>
+  <!-- Projects -->
+  <section class = "container">
+    <div class="row pad_top d-fex justify-content-between block2">
+        <div class="col-lg-4 center  pad_left">
+            <img class="rounded-circle"  src="/price.jpg" alt="photo" width="200" height="200">
+            <h2 class = "impg">Projects</h2>
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+
+        <div class="col-lg-4 center">
+            <img class="rounded-circle" src="/projects.jpg" alt="Generic placeholder image" width="200" height="200">
+            <h2 class =" impg">Projects</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+            <p>
+            <a class="btn btn-secondary" href="https://www.google.com">GitHub</a>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4 center pad_right">
+            <img class="rounded-circle" src="/hack.jpg" alt="Generic placeholder image" width="200" height="200">
+            <h2 class =" impg">Penetration Testing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+    </div>
+
+  </section>
 
 </body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="dark-theme">
-        <!-- Header content here -->
-    </header>
+<footer class="mt-auto text-white-50">
+    &copy; 2019<script>new Date().getFullYear()>2019&&document.write("-"+new Date().getFullYear());</script>, PhDSec.com - Ryan John
 
-    <section class="hero-section dark-theme">
-        <div class="hero-content">
-            <h1>Welcome to My Professional Profile</h1>
-            <p>A place to showcase my skills and expertise.</p>
-            <a href="#about" class="cta-btn">Learn More</a>
-        </div>
-    </section>
-
-    <!-- Your content goes here -->
-
-</body>
-</html>
-
-# Blog section
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="dark-theme">
-        <!-- Header content here -->
-    </header>
-
-    <section id="blog" class="blog-section dark-theme">
-        <div class="blog-content">
-            <h2>Recent Blog Posts</h2>
-            <div class="blog-post">
-                <h3><a href="https://medium.com/@rakesh.namballa4cs/safeguarding-your-digital-world-understanding-the-essentials-of-cloud-mobile-and-iot-security-7649ff821147">Essentials of Cloud, Mobile, and IoT Security
-</a></h3>
-                <p>Best Practices for Cloud and Device Security</p>
-            </div>
-            <div class="blog-post">
-                <h3><a href="blog-post-2.html">Blog Post 2 Title</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ut mauris vel mauris gravida pharetra.</p>
-            </div>
-            <!-- Add more blog posts as needed -->
-        </div>
-    </section>
-
-    <!-- Your content goes here -->
-
-</body>
-</html>
-
-# HireMe Button
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="dark-theme">
-        <!-- Header content here -->
-    </header>
-
-    <section id="contact" class="contact-section dark-theme">
-        <div class="contact-info">
-            <p>Phone: <a href="tel:+1234567890">+91 7674813567</a></p>
-            <p>Email: <a href="mailto:example@example.com">rakesh.namballa4cs@gmail.com</a></p>
-            <p><a href="resume.pdf" download>Download Resume (PDF)</a></p>
-        </div>
-        <a href="#hire-me" class="cta-btn">Hire Me</a>
-    </section>
-
-    <!-- Your content goes here -->
-
-</body>
-</html>
-
-# Learn more
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Profile</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header class="dark-theme">
-        <!-- Header content here -->
-    </header>
-
-    <section class="hero-section dark-theme">
-        <div class="hero-content">
-            <h1>Welcome to My Professional Profile</h1>
-            <p>A place to showcase my skills and expertise.</p>
-            <a href="#about" class="cta-btn">Learn More</a>
-        </div>
-    </section>
-
-    <section id="about" class="about-section dark-theme">
-        <div class="about-content">
-            <h2>About Me</h2>
-            <p><strong>Current Job Position:</strong> Security Operations Center (SOC) Analyst</p>
-            <p><strong>Education Background:</strong> Bachelor's Degree in Computer Science</p>
-            <p><strong>Skills:</strong> Network Security, Incident Response, SIEM Tools</p>
-            <p><strong>Certifications:</strong> RHCSA, CySA+, CISSP</p>
-        </div>
-    </section>
-
-    <!-- Your content goes here -->
-
-</body>
+  </footer>
 </html>
